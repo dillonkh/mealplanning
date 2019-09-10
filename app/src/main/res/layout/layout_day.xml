@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dayLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/dateSection">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunday"
+                android:textSize="40dp"
+                android:id="@+id/day" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 12"
+                android:textSize="40dp"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/date"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/mealList">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recyclerViewMealList">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:id="@+id/mealLayout">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="110dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/mealText"-->
+                    <!--android:text="meal"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:textSize="20dp"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="No meal assigned"-->
+                    <!--android:id="@+id/mealTitle"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="20dp"/>-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

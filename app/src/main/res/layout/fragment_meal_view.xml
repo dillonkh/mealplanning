@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mealViewLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Meal Title"
+                android:textSize="25dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/mealTitle"
+                android:paddingTop="15dp"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:id="@+id/editButton"
+                android:text="Edit"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ingedientTitle"
+            android:text="Ingredients"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the hidden content! ;)"
+            android:paddingLeft="10dp"
+            android:id="@+id/ingredients"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/instructionsTitle"
+            android:text="Instructions"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="This is the hidden content! ;)"
+            android:id="@+id/instructions"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linkTitle"
+            android:text="Link"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="This is the hidden content! ;)"
+            android:id="@+id/link"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/photoTitle"
+            android:text="Photo"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the hidden content! ;)"
+            android:paddingLeft="10dp"
+            android:id="@+id/photo"/>
+    </LinearLayout>
+</RelativeLayout>

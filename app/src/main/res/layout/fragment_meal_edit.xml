@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mealViewLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Meal Title"
+                android:id="@+id/mealTitleEdit"
+                android:textSize="25dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="Save"
+                android:id="@+id/saveButton"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ingedientTitleEdit"
+            android:text="Ingredients"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the hidden content! ;)"
+            android:paddingLeft="10dp"
+            android:id="@+id/ingredientsEdit"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/instructionsTitleEdit"
+            android:text="Instructions"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="This is the hidden content! ;)"
+            android:id="@+id/instructionsEdit"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linkTitleEdit"
+            android:text="Link"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="This is the hidden content! ;)"
+            android:id="@+id/linkEdit"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/photoTitleEdit"
+            android:text="Photo"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the hidden content! ;)"
+            android:paddingLeft="10dp"
+            android:id="@+id/photoEdit"/>
+        <Button
+            android:layout_width="60dp"
+            android:id="@+id/deleteButton"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:text="DELETE"/>
+    </LinearLayout>
+</RelativeLayout>

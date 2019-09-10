@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/shoppingIcon"
+        android:icon="@drawable/ic_shopping_list"
+        android:title="shoppingIcon"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/mealListIcon"
+        android:icon="@drawable/ic_meal_list"
+        android:title="mealListIcon"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/settingsIcon"
+        android:icon="@drawable/ic_settings"
+        android:title="settingsIcon"
+        app:showAsAction="always"/>
+
+
+</menu>
